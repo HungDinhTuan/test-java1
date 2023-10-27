@@ -57,10 +57,6 @@ public class Product {
         this.quanity = quanity;
     }
 
-    public double calculateCost(){
-        return price * quanity;
-    }
-
     @Override
     public String toString() {
         return "Product{" +

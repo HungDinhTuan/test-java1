@@ -27,7 +27,7 @@ public class LineItem {
     }
 
     public double cost(){
-        return product.calculateCost();
+        return product.getPrice() * quantity;
     }
 
     @Override

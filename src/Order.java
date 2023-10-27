@@ -33,8 +33,8 @@ public class Order {
 
     public double cost(){
         double totalCost = 0.0;
-        for (LineItem item : lineItems){
-            totalCost += item.cost();
+        for (LineItem lineItem : lineItems){
+            totalCost += lineItem.cost();
         }
         return totalCost;
     }
